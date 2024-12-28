@@ -12,7 +12,7 @@ The DAG consists of the following tasks:
 
 1. **Download Launches JSON**:
    - **Operator**: `BashOperator`
-   - Downloads upcoming rocket launches data in JSON format from [The Space Devs API](https://thespacedevs.com/).
+   - Downloads upcoming rocket launches data in JSON format from [The Space Devs API](https://ll.thespacedevs.com/2.0.0/launch/upcoming).
    - Saves the file as `/tmp/launches.json`.
 
 2. **Download Rocket Images**:
