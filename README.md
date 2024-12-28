@@ -2,6 +2,10 @@
 
 This project implements an **Airflow DAG (Directed Acyclic Graph)** to automate the process of downloading, processing, and reporting on upcoming rocket launches. The pipeline fetches data from an external API, extracts relevant images, and provides a notification of the number of images downloaded.
 
+## DAG
+
+![DAG](Dag.png)
+
 ## Project Workflow
 
 The DAG consists of the following tasks:
