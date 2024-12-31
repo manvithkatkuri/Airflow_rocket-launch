@@ -39,11 +39,3 @@ The DAG consists of the following tasks:
 - **curl**: For fetching data from the API.
 - **Requests Library**: For handling HTTP requests to download images.
 
-## Setup and Usage
-
-1. Clone the repository and navigate to the project directory.
-2. Ensure Apache Airflow is installed and configured on your system.
-3. Place the DAG file in your Airflow `dags` directory.
-4. Start Airflow and trigger the `download_rocket_launches` DAG:
-   ```bash
-   airflow dags trigger download_rocket_launches
